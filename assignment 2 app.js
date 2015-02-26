@@ -1,3 +1,4 @@
+
 Titanium.UI.setBackgroundColor('#F0FFFF');
 
 //
@@ -24,7 +25,7 @@ button1.addEventListener('click', function(e) {alert('You clicked Me!');
 button1.addEventListener('click', function() {
 	alert('\'button1\' was clicked!');
 });
-var nav = Titanium.UI.createNavigationGroup9({
+var nav = Ti.UI.createNavigationGroup({
 	window: win2
 }); 
 
@@ -66,7 +67,7 @@ button2.addEventListener('click', function(e) {alert('You clicked Me!');
 button1.addEventListener('click', function() {
 	alert('\'button2\' was clicked!');
 });
-var nav = Titanium.UI.Android.createNavigationGroup9({
+var nav = Ti.UI.Android.createNavigationGroup({
 	window: win1
 }); 
 
