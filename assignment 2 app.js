@@ -25,7 +25,7 @@ button1.addEventListener('click', function(e) {alert('You clicked Me!');
 button1.addEventListener('click', function() {
 	alert('\'button1\' was clicked!');
 });
-var nav = Titanium.UI.createNavigationGroup({
+var nav = Titanium.UI.Android.createNavigationGroup({
 	window: win2
 }); 
 
